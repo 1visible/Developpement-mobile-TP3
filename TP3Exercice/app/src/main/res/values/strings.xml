@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">TP3 - Exercices 1 à 6</string>
+    <string name="signup">Sign up</string>
+    <string name="informations">Informations</string>
+    <string name="submit">Submit</string>
+    <string name="planning">Planning</string>
+    <string name="lastname">Lastname</string>
+    <string name="firstname">Firstname</string>
+    <string name="age">Age</string>
+    <string name="phone_number">Phone number</string>
+    <string name="uuid">ID</string>
+    <string name="password">Password</string>
+    <string name="usages">Number of usages : </string>
+    <string name="warning">Please fill all the fields !</string>
+    <string name="success">You signed up !</string>
+    <string name="slot1">8h - 10h : %s</string>
+    <string name="slot2">10h - 12h : %s</string>
+    <string name="slot3">14h - 16h : %s</string>
+    <string name="slot4">16h - 18h : %s</string>
+    <string name="file_data">Update from file</string>
+    <string name="db_data">Update from DB</string>
+</resources>

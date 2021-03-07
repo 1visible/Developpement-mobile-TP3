@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/signup" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/lastname"
+            android:hint="@string/lastname"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/firstname"
+            android:hint="@string/firstname"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/age"
+            android:hint="@string/age"
+            android:inputType="number"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/phone_number"
+            android:inputType="phone"
+            android:hint="@string/phone_number"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:inputType="textPassword"
+            android:hint="@string/password"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/signup"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="@string/signup" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/planning"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/planning" />
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/submit" />
+
+    </LinearLayout>
+
+</LinearLayout>
